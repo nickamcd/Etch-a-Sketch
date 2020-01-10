@@ -1,0 +1,17 @@
+#container {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    background-color: grey;
+    padding: 10px;
+}
+
+.square{
+    background-color: beige;
+    height: 27px;
+    width: 27px;
+    margin: 1px;
+    border: 1px solid black;
+}
